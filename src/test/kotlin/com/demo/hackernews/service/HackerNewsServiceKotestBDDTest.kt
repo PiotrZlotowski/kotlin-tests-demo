@@ -12,6 +12,8 @@ import org.springframework.web.client.RestTemplate
 const val BASE_URL = "https://hacker-news.firebaseio.com/v0/"
 
 // https://kotest.io/docs/framework/testing-styles.html
+// https://kotest.io/docs/proptest/property-test-seeds.html
+
 
 class HackerNewsServiceKotestBDDTest: BehaviorSpec({
 
